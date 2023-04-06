@@ -1,6 +1,5 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import { useState, useEffect }  from 'react'
+import { Navbar, Container, Nav } from 'react-bootstrap/';
 // import logos and icons from assests folder i will set up later 
 
 export const NavBar = () => {
